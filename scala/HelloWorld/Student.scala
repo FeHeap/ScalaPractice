@@ -1,6 +1,6 @@
 package HelloWorld
 
-class Student(name: String, age: Int) {
+class Student(name: String, var age: Int) {
   def printInfo(): Unit = {
     println(name + " " + age + " " + Student.school)
   }
